@@ -37,8 +37,6 @@ function date() {
 
 function startTime2() {
     control = setInterval(cronometro, 10);
-
-
 }
 
 function cronometro() {
