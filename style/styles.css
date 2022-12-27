@@ -5,6 +5,38 @@
         local('semi coder'),
         local('semi-coder'),
         local('semi-coder regular'),
+        local('semi-coder-regular-webfont'),
+        local('semi coder regular'),
+        url('../resources/fonts/semi-coder/semi-coder-regular-webfont.woff2') format(woff2),
+        url('../resources/fonts/semi-coder/semi-coder-regular-webfont.woff') format(wolf);
+
+}
+
+.semi-coder {
+    font-family: 'semi-coder';
+}
+
+h3 {
+    font-family: semi-coder;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+div {
+
+    color: green;
+}
+
+/*
+@font-face {
+    font-family: 'semi-coder';
+    src:
+        local('semi'),
+        local('semi coder'),
+        local('semi-coder'),
+        local('semi-coder regular'),
         local('semi coder regular') local('../resources/fonts/semi-coder/semi-coder-regular-webfont.woff2') format(woff2);
 
 }
@@ -16,3 +48,4 @@
 h3 {
     font-family: semi-coder;
 }
+*/
